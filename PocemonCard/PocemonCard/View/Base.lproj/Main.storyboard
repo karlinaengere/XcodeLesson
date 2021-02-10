@@ -51,14 +51,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="lRj-JT-1L8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Gxc-B5-kZb"/>
+                            <constraint firstAttribute="bottom" secondItem="lRj-JT-1L8" secondAttribute="bottom" id="ITP-Yn-7jK"/>
                             <constraint firstAttribute="bottom" secondItem="lRj-JT-1L8" secondAttribute="bottom" id="PbV-iA-pfm"/>
                             <constraint firstItem="lRj-JT-1L8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Wa2-TW-vOw"/>
                             <constraint firstItem="lRj-JT-1L8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dtk-qQ-ReF"/>
+                            <constraint firstItem="lRj-JT-1L8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="o9C-xv-PkT"/>
+                            <constraint firstItem="lRj-JT-1L8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ugP-8o-Mgb"/>
+                            <constraint firstItem="lRj-JT-1L8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="y2j-3x-CmH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1Sd-iK-Xu4"/>
                     <connections>
-                        <segue destination="Mth-cr-xLz" kind="show" id="agy-hO-eHv"/>
+                        <segue destination="Mth-cr-xLz" kind="show" identifier="PocemonDetail" id="agy-hO-eHv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -73,13 +77,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="PocemonViewContoller" translatesAutoresizingMaskIntoConstraints="NO" id="fMc-W6-onS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="PocemonViewContoller" translatesAutoresizingMaskIntoConstraints="NO" id="fMc-W6-onS">
                                 <rect key="frame" x="20" y="113" width="374" height="364"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QUR-bf-s46"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fMc-W6-onS" firstAttribute="leading" secondItem="QUR-bf-s46" secondAttribute="leading" constant="20" id="4gc-rW-g27"/>
+                            <constraint firstItem="fMc-W6-onS" firstAttribute="top" secondItem="QUR-bf-s46" secondAttribute="top" constant="25" id="FcZ-W3-53O"/>
+                            <constraint firstItem="QUR-bf-s46" firstAttribute="trailing" secondItem="fMc-W6-onS" secondAttribute="trailing" constant="20" id="L8R-MF-aOY"/>
+                            <constraint firstItem="QUR-bf-s46" firstAttribute="bottom" secondItem="fMc-W6-onS" secondAttribute="bottom" constant="385" id="g1j-t9-DTI"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VKd-g1-ahs"/>
                 </viewController>

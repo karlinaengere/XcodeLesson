@@ -109,10 +109,9 @@
 		0F91B3CC25D2B85F004238B0 /* PocemonCard */ = {
 			isa = PBXGroup;
 			children = (
-				0F91B40825D2B9CA004238B0 /* Helper */,
 				0F91B40725D2B9AA004238B0 /* AppDelegate */,
-				0F91B40925D2B9FC004238B0 /* New Group */,
-				0F91B40625D2B991004238B0 /* Models */,
+				0F91B40825D2B9CA004238B0 /* Helper */,
+				0F91B41225D2BC02004238B0 /* Controller */,
 				0F91B41B25D2BCB8004238B0 /* View */,
 				0F91B3D925D2B861004238B0 /* Assets.xcassets */,
 				0F91B3DE25D2B861004238B0 /* Info.plist */,
@@ -143,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				0F91B41325D2BC23004238B0 /* Pocemon.swift */,
-				0F91B41225D2BC02004238B0 /* Controller */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,17 +158,11 @@
 		0F91B40825D2B9CA004238B0 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				0F91B40625D2B991004238B0 /* Models */,
 				0F91B41C25D2BE39004238B0 /* NetworkContorller.swift */,
 				0F91B42425D2C278004238B0 /* ImageController.swift */,
 			);
 			path = Helper;
-			sourceTree = "<group>";
-		};
-		0F91B40925D2B9FC004238B0 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		0F91B41225D2BC02004238B0 /* Controller */ = {
