@@ -16,11 +16,12 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        if (song != nil) = nil {
+        
+        if song != nil{
             TrackImageView.image = UIImage(named: song.cover)
             trackNameLabel.text = song.track + " - " + song.album
             trackNameLabel.numberOfLines = 0
+            
         }
     }
  
